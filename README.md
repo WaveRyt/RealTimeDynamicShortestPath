@@ -32,4 +32,4 @@ This is a command-line application for building, modifying, and querying an weig
 From the project root:
 
 ```bash
-python -m src.cli
+python src/cli.py
