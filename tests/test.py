@@ -19,9 +19,9 @@ def test_update_changes_path():
     g.add_edge(2,3,1)
     g.add_edge(1,3,50)
     dsp = DynamicShortestPath(g)
-    p,d = dsp.shortest_path(1,3)
+    p, d = dsp.shortest_path(1,3)
     assert d == 11
     g.update_edge(1,2,1)
     dsp.notify_edge_changed()
-    p2,d2 = dsp.shortest_path(1,3)
+    p2, d2 = dsp.shortest_path(1,3)
     assert d2 == 2
