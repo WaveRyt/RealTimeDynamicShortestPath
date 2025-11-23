@@ -1,4 +1,4 @@
-# Dynamic Dijkstra Graph System (Python)
+# Real Time Dynamic Shortest Path 
 
 This is a command-line application for building, modifying, and querying an weighted graph using Dijkstra’s algorithm, with support for dynamic updates to shortest-path results. The program includes an interactive event loop for real-time graph manipulation.
 
@@ -21,7 +21,7 @@ This is a command-line application for building, modifying, and querying an weig
 | `dynamic_dijkstra.py` | Dijkstra’s algorithm + dynamic path invalidation mechanism |
 | `event_handler.py` | Command parser and event dispatcher |
 | `cli.py` | Main CLI entry point |
-| `tests/test_basic.py` | Unit tests for shortest path logic |
+| `tests/test.py` | Unit tests for shortest path logic |
 | `examples/example.txt` | Sample command file for automated input |
 
 ---
